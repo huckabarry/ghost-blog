@@ -1,0 +1,20 @@
+{{!< default}}
+
+<main class="site-main">
+    {{#post}}
+        {{#has tag="notes"}}
+            {{> "excerpt" width="wide"}}
+        {{else}}
+            {{> "content" width="wide"}}
+        {{/has}}
+     {{/post}}
+
+    {{#if @custom.show_related_posts}}
+        {{> "related-posts"}}
+    {{/if}}
+
+    {{#post}}
+        {{> "comments"}}
+    {{/post}}
+
+</main>
