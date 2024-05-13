@@ -93,6 +93,10 @@
     word-break: break-word;
 }
 
+.gh-card-excerpt img {
+    margin-bottom: 20px;
+}
+
 .gh-card-meta {
     display: inline-flex;
     gap: 6px;
