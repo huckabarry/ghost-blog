@@ -27,10 +27,6 @@
     margin-bottom: 12rem;
 }
 
-.gh-article-excerpt img {
-    margin-bottom: 20px; /* Adjust the value to your preference */
-}
-
 .gh-latest .gh-card-meta {
     margin-top: 2.4rem;
 }
@@ -91,10 +87,6 @@
     line-height: 1.5;
     letter-spacing: -0.01em;
     word-break: break-word;
-}
-
-.gh-card-excerpt img {
-    margin-bottom: 20px;
 }
 
 .gh-card-meta {
