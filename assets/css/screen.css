@@ -27,7 +27,7 @@
     margin-bottom: 12rem;
 }
 
-.gh-card-excerpt img {
+.gh-article-excerpt img {
     margin-bottom: 20px; /* Adjust the value to your preference */
 }
 
@@ -369,6 +369,7 @@
     font-size: 2.8rem;
     line-height: 1.35;
     color: var(--color-darker-gray);
+    
 }
 
 .gh-article-footer {
