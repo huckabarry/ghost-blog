@@ -1,5 +1,5 @@
 {
-    "name": "dawn",
+    "name": "journal",
     "description": "A Ghost theme",
     "version": "1.0.0",
     "private": true,
@@ -17,27 +17,27 @@
         "theme",
         "ghost-theme"
     ],
-    "docs": "https://dawn.ghost.io/about/",
+    "docs": "https://journal.ghost.io/about/",
     "config": {
-        "posts_per_page": 5,
+        "posts_per_page": 10,
         "image_sizes": {
             "xs": {
                 "width": 150
             },
             "s": {
-                "width": 400
+                "width": 300
             },
             "m": {
-                "width": 750
+                "width": 720
             },
             "l": {
                 "width": 960
             },
             "xl": {
-                "width": 1140
+                "width": 1200
             },
             "xxl": {
-                "width": 1920
+                "width": 2000
             }
         },
         "card_assets": true,
@@ -45,55 +45,17 @@
             "navigation_layout": {
                 "type": "select",
                 "options": ["Logo on the left", "Logo in the middle", "Stacked"],
-                "default": "Logo on the left"
+                "default": "Stacked"
             },
             "title_font": {
                 "type": "select",
-                "options": [
-                    "Modern sans-serif",
-                    "Elegant serif"
-                ],
+                "options": ["Modern sans-serif", "Elegant serif"],
                 "default": "Modern sans-serif"
             },
             "body_font": {
                 "type": "select",
-                "options": [
-                    "Modern sans-serif",
-                    "Elegant serif"
-                ],
+                "options": ["Modern sans-serif", "Elegant serif"],
                 "default": "Modern sans-serif"
-            },
-            "color_scheme": {
-                "type": "select",
-                "options": [
-                    "Auto",
-                    "Light",
-                    "Dark"
-                ],
-                "default": "Auto"
-            },
-            "white_logo_for_dark_mode": {
-                "type": "image"
-            },
-            "show_featured_posts": {
-                "type": "boolean",
-                "default": true,
-                "group": "homepage"
-            },
-            "featured_title": {
-                "type": "text",
-                "default": "Featured articles",
-                "group": "homepage"
-            },
-            "show_author": {
-                "type": "boolean",
-                "default": true,
-                "group": "post"
-            },
-            "show_related_posts": {
-                "type": "boolean",
-                "default": true,
-                "group": "post"
             }
         }
     },
@@ -103,18 +65,18 @@
         "zip": "gulp zip"
     },
     "devDependencies": {
-        "@tryghost/shared-theme-assets": "2.4.2",
-        "autoprefixer": "10.4.16",
+        "@tryghost/shared-theme-assets": "2.3.1",
+        "autoprefixer": "10.4.14",
         "beeper": "2.1.0",
         "cssnano": "6.0.1",
-        "gscan": "4.42.0",
+        "gscan": "4.37.0",
         "gulp": "4.0.2",
         "gulp-concat": "2.6.1",
         "gulp-livereload": "4.0.2",
         "gulp-postcss": "9.0.1",
         "gulp-uglify": "3.0.2",
         "gulp-zip": "5.1.0",
-        "postcss": "8.4.32",
+        "postcss": "8.4.24",
         "postcss-easy-import": "4.0.0",
         "pump": "3.0.0"
     }
