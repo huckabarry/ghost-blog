@@ -27,6 +27,10 @@
     margin-bottom: 12rem;
 }
 
+.gh-article img {
+    margin-bottom: 20px; /* Adjust the value to your preference */
+}
+
 .gh-latest .gh-card-meta {
     margin-top: 2.4rem;
 }
