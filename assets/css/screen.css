@@ -7,6 +7,14 @@
     --color-primary-text: var(--color-black);
     --color-darker-gray: var(--color-black);
     --head-nav-gap: 3.2rem;
+
+#disqus_thread { 
+    width: 640px;
+    max-width: 100%;
+    margin: 0 auto; 
+    padding: 18px; 
+}
+
 }
 
 .tag-template .gh-main,
