@@ -8,7 +8,7 @@
     --color-darker-gray: var(--color-black);
     --head-nav-gap: 3.2rem;
 
-#disqus_thread { 
+disqus_thread { 
     width: 640px;
     max-width: 100%;
     margin: 0 auto; 
