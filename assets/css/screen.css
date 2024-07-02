@@ -10,13 +10,6 @@
 
 }
 
-disqus_thread { 
-    width: 640px;
-    max-width: 50%;
-    margin: 0 auto; 
-    padding: 18px; 
-}
-
 .tag-template .gh-main,
 .author-template .gh-main {
     padding-top: 8vmin;
